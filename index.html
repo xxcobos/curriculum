@@ -119,19 +119,46 @@
     <section id="imagen">
         <h2>Imagen Personal</h2>
         <div>
-            <!-- Agrega aquí tu imagen -->
+            
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcl.linkedin.com%2Fin%2Fmatias-ibarra-valenzuela-928346144&psig=AOvVaw3tk0W4DpfU_jrWF8RguMSa&ust=1697123830288000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMiG7Yal7oEDFQAAAAAdAAAAABAE" alt="Imagen de perfil">
+    
         </div>
     </section>
     <section id="video">
         <h2>Video de Presentación</h2>
         <div>
-            <!-- Agrega aquí tu video -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nLckfWEs82s?si=1jMt4wYVKuNW_yHf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </section>
     <section id="mapa">
-        <h2>Ubicación en el Mapa</h2>
         <div>
-            <!-- Agrega aquí un mapa que muestre tu ubicación -->
+            <section id="mapa">
+    <h2>Ubicación en el Mapa</h2>
+    <div id="map" style="height: 400px; width: 100%;"></div>
+</section>
+<script>
+    function initMap() {
+        // Coordenadas de tu ubicación
+        var ubicacion = { lat: -2.192482, lng: -79.878108 }; // Cambia estas coordenadas por las de tu ubicación.
+
+        // Crea un mapa en el elemento con ID "map"
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15, // Puedes ajustar el nivel de zoom
+            center: ubicacion
+        });
+
+        // Agrega un marcador en la ubicación
+        var marker = new google.maps.Marker({
+            position: ubicacion,
+            map: map,
+            title: 'Mi Ubicación'
+        });
+    }
+</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=TU_CLAVE_DE_API&callback=initMap">
+</script>
+
         </div>
     </section>
     <footer>

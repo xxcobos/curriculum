@@ -10,3 +10,26 @@ h1 {
 	font-family: 'Lato', Georgia, serif;
 }
 
+#educa {
+	background-color: #fffffe;
+}
+
+#educa ul {
+	color: #2d334a;
+}
+#informacion-personal div {
+	color: #2d334a;
+}
+
+section {
+box-sizing: border-box;
+margin: 20px;
+border: 1px solid white;
+padding: 10px;
+background-color: #fffffe;
+}
+
+
+body {
+    background-color: #f9f4ef; 
+}

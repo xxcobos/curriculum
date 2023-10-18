@@ -129,39 +129,17 @@
     <section id="video">
         <h2>Video de Presentación</h2>
         <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/nLckfWEs82s?si=1jMt4wYVKuNW_yHf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jZ1juK3mbxw?si=RowXO6ZGgvVJ1Aqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </section>
+
+
     <section id="mapa">
         <div>
             <section id="mapa">
     <h2>Ubicación en el Mapa</h2>
-    <div id="map" style="height: 400px; width: 100%;"></div>
-</section>
-<script>
-    function initMap() {
-        // Coordenadas de tu ubicación
-        var ubicacion = { lat: -2.192482, lng: -79.878108 }; // Cambia estas coordenadas por las de tu ubicación.
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3828338.9117552764!2d-160.1482308077768!3d20.440033068359234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7bffdb064f79e005%3A0x4b7782d274cc8628!2zSGF3w6FpLCBFRS4gVVUu!5e0!3m2!1ses-419!2sec!4v1697600615821!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        // Crea un mapa en el elemento con ID "map"
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 15, // Puedes ajustar el nivel de zoom
-            center: ubicacion
-        });
-
-        // Agrega un marcador en la ubicación
-        var marker = new google.maps.Marker({
-            position: ubicacion,
-            map: map,
-            title: 'Mi Ubicación'
-        });
-    }
-</script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=TU_CLAVE_DE_API&callback=initMap">
-</script>
-
-        </div>
     </section>
     <footer>
         <p>Copyright © 2023 Xavier Cobos</p>

@@ -1,5 +1,6 @@
 * {
-font-family: Arial, sans-serif;
+font-family: 'Open Sans', Arial, sans-serif;
+color: brown;
 }
 
 .my-class {
@@ -8,28 +9,43 @@ font-family: Times New Roman, serif;
 
 h1 {
 	font-family: 'Lato', Georgia, serif;
+	color: black;
 }
 
 #educa {
-	background-color: #fffffe;
+	background-color: #E6DDB8;
+
 }
 
 #educa ul {
-	color: #2d334a;
+	color: #E6DDB8;
+	color: white;
 }
 #informacion-personal div {
 	color: #2d334a;
 }
 
 section {
-box-sizing: border-box;
-margin: 20px;
-border: 1px solid white;
-padding: 10px;
-background-color: #fffffe;
+	width: 80%;
+	box-sizing: border-box;
+	margin: 20px;
+	border: 1px solid white;
+	padding: 10px;
+	background-color: #fffffe;
+	display: flex;
+	flex-direction: column;
+	
 }
 
 
 body {
+	display: flex;
+	flex-direction: column;
     background-color: #f9f4ef; 
+}
+
+
+#imagen img {
+    display: block;
+    margin: 0 auto;
 }

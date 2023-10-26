@@ -1,6 +1,7 @@
 * {
 font-family: 'Open Sans', Arial, sans-serif;
 color: brown;
+font-weight: bold;
 }
 
 .my-class {
@@ -13,17 +14,27 @@ h1 {
 }
 
 #educa {
-	background-color: #E6DDB8;
+	background-color: #e6ddb8;
 
 }
+
+h2 {
+	background-color: #FFDAB9; 
+	text-align: center;
+  }
 
 #educa ul {
 	color: #E6DDB8;
 	color: white;
 }
-#informacion-personal div {
+#informacion-personal{
 	color: #2d334a;
 }
+
+#informacion-personal .der{
+	float: right;
+}
+
 
 section {
 	width: 80%;
@@ -33,7 +44,7 @@ section {
 	padding: 10px;
 	background-color: #fffffe;
 	display: flex;
-	flex-direction: column;
+	flex-direction:inherit;
 	
 }
 
@@ -49,3 +60,16 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+
+.Petado {
+	/* Chrome, Safari, Opera */
+	-webkit-animation: fadeInDown 4s; 
+	animation: fadeInDown 4s;
+  }
+
+  .sombra {
+	-webkit-animation: fadeInDown 4s; 
+	animation: fadeInDown 4s;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }

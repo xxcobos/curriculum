@@ -11,6 +11,7 @@ font-family: Times New Roman, serif;
 h1 {
 	font-family: 'Lato', Georgia, serif;
 	color: black;
+	
 }
 
 #educa {
@@ -18,9 +19,11 @@ h1 {
 
 }
 
+
 h2 {
-	background-color: #FFDAB9; 
+	background-color: #FFDAB9;
 	text-align: center;
+	margin: 10px;
   }
 
 #educa ul {
@@ -37,16 +40,18 @@ h2 {
 
 
 section {
-	width: 80%;
+	width: 100%;
 	box-sizing: border-box;
-	margin: 20px;
+	margin: 30px;
 	border: 1px solid white;
 	padding: 10px;
 	background-color: #fffffe;
 	display: flex;
-	flex-direction:inherit;
+	flex-direction:column;
 	
 }
+
+
 
 
 body {
@@ -57,7 +62,7 @@ body {
 
 
 #imagen img {
-    display: block;
+    display: flex;
     margin: 0 auto;
 }
 
@@ -73,3 +78,37 @@ body {
 	animation: fadeInDown 4s;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
+
+  .centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Alinea el texto al centro si es necesario */
+}
+
+
+.wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.left-column {
+    width: 30%;
+	height: 100vh;
+    background-color: #e6ddb8;
+    padding: 20px;
+    position: fixed;
+	display: flex;
+    flex-direction: column;
+	overflow: auto;
+
+}
+
+.right-column {
+    width: 69%;
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    padding: 20px;
+    background-color: #f9f4ef;
+	margin-left: 30%;
+}
